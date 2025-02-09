@@ -1,0 +1,22 @@
+#!/bin/sh
+
+echo "running the following script..."
+echo
+echo
+echo
+cat $0
+echo
+echo
+echo
+
+read -p "continue [Y/n]? " choice
+case "$choice" in 
+  n|N ) echo "exiting...";exit 0;;
+  * );;
+esac
+
+# install truth-table-generator using the system pip3.9
+/Library/Developer/CommandLineTools/usr/bin/python3.9 -m pip install --upgrade truth-table-generator
+
+# expose ttg_cli.py in the $PATH
+echo "export PATH='$PATH:/Users/1008814/Library/Python/3.9/bin'" >> ~/.zshrc # if you use a different shell i'm sure you'll figure it out
