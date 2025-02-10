@@ -1,14 +1,6 @@
 #!/bin/sh
 
-echo "running the following script..."
-echo
-echo
-echo
-cat $0
-echo
-echo
-echo
-
+echo "running the script to install ttg_cli.py..."
 read -p "continue [Y/n]? " choice
 case "$choice" in 
   n|N ) echo "exiting...";exit 0;;
