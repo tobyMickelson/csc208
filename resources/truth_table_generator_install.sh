@@ -11,4 +11,4 @@ esac
 /Library/Developer/CommandLineTools/usr/bin/python3.9 -m pip install --upgrade truth-table-generator
 
 # expose ttg_cli.py in the $PATH
-echo "export PATH='$PATH:/Users/1008814/Library/Python/3.9/bin'" >> ~/.zshrc # if you use a different shell i'm sure you'll figure it out
+echo "export PATH='$PATH:$HOME/Library/Python/3.9/bin'" >> ~/.zshrc # if you use a different shell i'm sure you'll figure it out
