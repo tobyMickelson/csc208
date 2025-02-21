@@ -20,6 +20,16 @@ the contrapositive of `if P then Q` is `if not Q then not P`
 
 the inverse of `if P then Q` is `if not P then not Q`
 
+### necessary
+
+`P is necessary for Q` means that `if Q then P`
+
+### sufficient
+
+`P is sufficient for Q` means that `if P then Q`
+
+`P is sufficient and necessary for Q` means that `P if and only if Q`
+
 ## chapter 1.3
 
 ### logical equivalence
