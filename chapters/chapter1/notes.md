@@ -1,5 +1,15 @@
 # chapter 1 notes
 
+## chapter 1.2
+
+### implication
+
+implication (sometimes also referred to as conditionals), are statements in the form of `if P then Q`
+
+in this statement `P` is the hypothesis (aka. antecedent) and `Q` is the conclusion (aka. consequent)
+
+
+
 ## chapter 1.3
 
 ### logical equivalence
