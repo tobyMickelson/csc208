@@ -36,4 +36,6 @@ modus ponens states that if given `if P then Q`, and given `P`, then `Q` can be 
 
 ### deduction examples
 
-if given `if P then Q` and `if not P then Q` and that `Q` is true, we can conclude that this statement is true because `P or not P` always evaluates to true
+if given `if P then Q` and `if not P then Q` therefore `Q` is true, we can conclude that this statement is true because `P or not P` always evaluates to true
+
+if given `if P then R`, `if Q then R`, and `R` therefore `P or Q` is true, we can conclude this because we are given that `R` is true and that R can only be true if either `P` or `Q` is true.
