@@ -13,3 +13,18 @@ one such example is that `if P then Q` is logically equivalent to `not P or Q`
 if given `if P then Q`, and given `P`, then `Q` can be inferred
 
 if given `if P then Q`, and given `not P`, then `not Q` can be inferred
+
+### de morgan's law
+
+de morgan's law states that `not (P and Q)` is logically equivalent to `not P or not Q`
+
+it also states that `not (P or Q)` is logically equivalent to `not P and not Q`
+
+### double negation
+
+double negation states that `not not P` is logically equivalent to `P`
+
+### negation of implication
+
+negation of implication states that `not (if P then Q)` is logically equicalent to `P and not Q`
+
