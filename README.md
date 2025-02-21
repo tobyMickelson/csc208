@@ -9,3 +9,5 @@ note that this is only tested on Arlington Public School M1 MacBook with develop
 ```sh
 sh -c "$(curl https://raw.githubusercontent.com/tobyMickelson/csc208/refs/heads/main/resources/truth_table_generator_install.sh)"
 ```
+
+after installing, it may be required to exit and repoen your terminal session
