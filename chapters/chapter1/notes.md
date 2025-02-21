@@ -10,9 +10,7 @@ one such example is that `if P then Q` is logically equivalent to `not P or Q`
 
 ### modus tollens
 
-if given `if P then Q`, and given `P`, then `Q` can be inferred
-
-if given `if P then Q`, and given `not P`, then `not Q` can be inferred
+modus tollens states that if given `if P then Q`, and given `not P`, then `not Q` can be inferred
 
 ### de morgan's law
 
@@ -28,3 +26,10 @@ double negation states that `not not P` is logically equivalent to `P`
 
 negation of implication states that `not (if P then Q)` is logically equicalent to `P and not Q`
 
+### deduction rules
+
+deduction rules are statements that always evaluate to true
+
+### modus ponens
+
+modus ponens states that if given `if P then Q`, and given `P`, then `Q` can be inferred
