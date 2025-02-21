@@ -8,7 +8,17 @@ implication (sometimes also referred to as conditionals), are statements in the 
 
 in this statement `P` is the hypothesis (aka. antecedent) and `Q` is the conclusion (aka. consequent)
 
+### converse
 
+the converse of `if P then Q` is `if Q then P`
+
+### contrapositive
+
+the contrapositive of `if P then Q` is `if not Q then not P`
+
+### inverse
+
+the inverse of `if P then Q` is `if not P then not Q`
 
 ## chapter 1.3
 
