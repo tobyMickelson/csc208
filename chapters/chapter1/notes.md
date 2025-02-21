@@ -33,3 +33,7 @@ deduction rules are statements that always evaluate to true
 ### modus ponens
 
 modus ponens states that if given `if P then Q`, and given `P`, then `Q` can be inferred
+
+### deduction examples
+
+if given `if P then Q` and `if not P then Q` and that `Q` is true, we can conclude that this statement is true because `P or not P` always evaluates to true
